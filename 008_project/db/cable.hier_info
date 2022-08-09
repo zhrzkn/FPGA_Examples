@@ -1,0 +1,19 @@
+|cable
+A => A.IN1
+B => B.IN1
+C => C.IN1
+Z << myXOR:x2.port2
+
+
+|cable|myXOR:x1
+x => x1.IN0
+y => x1.IN1
+z <= x1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|cable|myXOR:x2
+x => x1.IN0
+y => x1.IN1
+z <= x1.DB_MAX_OUTPUT_PORT_TYPE
+
+
