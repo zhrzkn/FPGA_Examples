@@ -1,0 +1,8 @@
+|module_XOR
+result <= z.DB_MAX_OUTPUT_PORT_TYPE
+A => x.IN0
+A => y.IN0
+B => y.IN1
+B => x.IN1
+
+

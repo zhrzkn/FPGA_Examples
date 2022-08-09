@@ -1,0 +1,120 @@
+|_4bit_sbs
+S[0] <= full_adder:FA0.port0
+S[1] <= full_adder:FA1.port0
+S[2] <= full_adder:FA2.port0
+S[3] <= full_adder:FA3.port0
+C <= full_adder:FA3.port1
+B[0] => B_comp[0].IN1
+B[1] => ~NO_FANOUT~
+B[2] => ~NO_FANOUT~
+B[3] => ~NO_FANOUT~
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+
+
+|_4bit_sbs|full_adder:FA0
+sum <= half_adder:second_sum.port0
+carry_out <= half_adder:first_sum.port1
+a => a.IN1
+b => b.IN1
+carry_in => ~NO_FANOUT~
+
+
+|_4bit_sbs|full_adder:FA0|half_adder:first_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA0|half_adder:second_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA1
+sum <= half_adder:second_sum.port0
+carry_out <= half_adder:first_sum.port1
+a => a.IN1
+b => b.IN1
+carry_in => ~NO_FANOUT~
+
+
+|_4bit_sbs|full_adder:FA1|half_adder:first_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA1|half_adder:second_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA2
+sum <= half_adder:second_sum.port0
+carry_out <= half_adder:first_sum.port1
+a => a.IN1
+b => b.IN1
+carry_in => ~NO_FANOUT~
+
+
+|_4bit_sbs|full_adder:FA2|half_adder:first_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA2|half_adder:second_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA3
+sum <= half_adder:second_sum.port0
+carry_out <= half_adder:first_sum.port1
+a => a.IN1
+b => b.IN1
+carry_in => ~NO_FANOUT~
+
+
+|_4bit_sbs|full_adder:FA3|half_adder:first_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
+|_4bit_sbs|full_adder:FA3|half_adder:second_sum
+sum <= sum_of_digits.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_of_sum.DB_MAX_OUTPUT_PORT_TYPE
+a => sum_of_digits.IN0
+a => carry_of_sum.IN0
+b => sum_of_digits.IN1
+b => carry_of_sum.IN1
+
+
