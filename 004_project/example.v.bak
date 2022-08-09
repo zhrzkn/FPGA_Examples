@@ -1,0 +1,8 @@
+module example( input [9:0] SW,
+                output [9:0] LED);
+
+
+   assign LED[9:5] = {3{SW[9]},2'b01};
+	assign LED[4:0] = {SW[4:3],SW[2:0]};
+	
+endmodule

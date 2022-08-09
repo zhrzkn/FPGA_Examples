@@ -1,0 +1,15 @@
+|example
+IN[0] => ~NO_FANOUT~
+IN[1] => ~NO_FANOUT~
+IN[2] => a1.IN0
+IN[3] => a1.IN1
+in1 => or1.IN0
+in2 => or1.IN1
+in3 => ~NO_FANOUT~
+in4 => ~NO_FANOUT~
+OUT[0] <= <GND>
+OUT[1] <= <GND>
+out1 <= a1.DB_MAX_OUTPUT_PORT_TYPE
+out2 <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+

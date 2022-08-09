@@ -1,0 +1,9 @@
+|example
+A => na1.IN0
+A => no1.IN0
+B => na1.IN1
+B => no1.IN1
+C => a1.IN2
+Q <= a1.DB_MAX_OUTPUT_PORT_TYPE
+
+

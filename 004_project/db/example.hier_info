@@ -1,0 +1,23 @@
+|example
+SW[0] => ~NO_FANOUT~
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+LED[0] <= <VCC>
+LED[1] <= <GND>
+LED[2] <= <GND>
+LED[3] <= <GND>
+LED[4] <= <VCC>
+LED[5] <= <VCC>
+LED[6] <= <VCC>
+LED[7] <= <VCC>
+LED[8] <= <VCC>
+LED[9] <= <VCC>
+
+

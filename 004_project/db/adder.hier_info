@@ -1,0 +1,15 @@
+|_1bit_xor
+result[0] << xx.DB_MAX_OUTPUT_PORT_TYPE
+result[1] << yy.DB_MAX_OUTPUT_PORT_TYPE
+result[2] << zz.DB_MAX_OUTPUT_PORT_TYPE
+result[3] << tt.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => xx.IN0
+A[1] => yy.IN0
+A[2] => zz.IN0
+A[3] => tt.IN0
+B[0] => xx.IN1
+B[1] => yy.IN1
+B[2] => zz.IN1
+B[3] => tt.IN1
+
+
