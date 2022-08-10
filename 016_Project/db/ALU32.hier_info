@@ -9,13 +9,13 @@ b[0] => b[0].IN4
 b[1] => b[1].IN4
 b[2] => b[2].IN4
 b[3] => b[3].IN4
-ALU_output[0] <= _4bit_4x1MUX:muxOperation.port0
-ALU_output[1] <= _4bit_4x1MUX:muxOperation.port0
-ALU_output[2] <= _4bit_4x1MUX:muxOperation.port0
-ALU_output[3] <= _4bit_4x1MUX:muxOperation.port0
-carry_out[0] <= carry_out[0].DB_MAX_OUTPUT_PORT_TYPE
-carry_out[1] <= carry_out[1].DB_MAX_OUTPUT_PORT_TYPE
-carry_out[2] <= carry_out[2].DB_MAX_OUTPUT_PORT_TYPE
+ALU_output[0] << _4bit_4x1MUX:muxOperation.port0
+ALU_output[1] << _4bit_4x1MUX:muxOperation.port0
+ALU_output[2] << _4bit_4x1MUX:muxOperation.port0
+ALU_output[3] << _4bit_4x1MUX:muxOperation.port0
+carry_out[0] << carry_out[0].DB_MAX_OUTPUT_PORT_TYPE
+carry_out[1] << carry_out[1].DB_MAX_OUTPUT_PORT_TYPE
+carry_out[2] << carry_out[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ALU32|adder:ADD
