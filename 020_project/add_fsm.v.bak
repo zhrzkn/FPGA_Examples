@@ -1,0 +1,52 @@
+module add_fsm(
+	input go,
+	input [5:0] a,
+	input [5:0] b,
+	input reset,
+	input CLK,
+	output reg [5:0] result);
+	
+	
+reg [5:0] x;
+reg [5:0] y;
+
+localparam  s0=2'd0,
+				s1=2'd1,
+				s2=2'd2,
+				s3=2'd3;
+				
+reg [1:0] present_state;
+
+always@(posedge CLK)  //her clk'ta yeni değer atamak isteniyorsa posedge kullan
+	begin
+	if(reset)
+	  present_state<= s0;
+	else
+	begin
+	   case(present_state)
+			s0:
+			  begin
+			  if(go)  //go sinyali 0'da kalsın.
+				present_state<=s1;
+			  end 
+			s1:
+			  begin
+			   x<=a+b;
+				present_state<=s2;
+			  end 
+			s2:
+			  begin
+			   y<= x+6'd3;
+				present_state<=s3;
+			  end 
+			s3:
+			  begin
+			   result<=x+y;
+				present_state<=s0;
+			  end
+			 
+		endcase
+	end
+end
+
+endmodule	

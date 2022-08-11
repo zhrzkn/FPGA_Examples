@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'add_control:cont|present_state.S3'
+Slack : -8.646
+TNS   : -92.388
+
+Type  : Slow 1100mV 85C Model Setup 'add_control:cont|present_state.S2'
+Slack : -8.510
+TNS   : -92.307
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -2.985
+TNS   : -35.895
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : -2.121
+TNS   : -2.121
+
+Type  : Slow 1100mV 85C Model Hold 'add_control:cont|present_state.S2'
+Slack : 0.460
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'add_control:cont|present_state.S3'
+Slack : 0.783
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -17.791
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'add_control:cont|present_state.S2'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'add_control:cont|present_state.S3'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'add_control:cont|present_state.S2'
+Slack : -8.954
+TNS   : -96.033
+
+Type  : Slow 1100mV 0C Model Setup 'add_control:cont|present_state.S3'
+Slack : -8.878
+TNS   : -95.959
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -2.736
+TNS   : -30.990
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : -2.323
+TNS   : -2.323
+
+Type  : Slow 1100mV 0C Model Hold 'add_control:cont|present_state.S2'
+Slack : 0.522
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'add_control:cont|present_state.S3'
+Slack : 0.741
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.724
+TNS   : -17.759
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'add_control:cont|present_state.S2'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'add_control:cont|present_state.S3'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'add_control:cont|present_state.S3'
+Slack : -3.201
+TNS   : -31.310
+
+Type  : Fast 1100mV 85C Model Setup 'add_control:cont|present_state.S2'
+Slack : -2.914
+TNS   : -30.643
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -1.832
+TNS   : -22.553
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : -0.437
+TNS   : -0.437
+
+Type  : Fast 1100mV 85C Model Hold 'add_control:cont|present_state.S2'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'add_control:cont|present_state.S3'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.090
+TNS   : -1.404
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'add_control:cont|present_state.S2'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'add_control:cont|present_state.S3'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'add_control:cont|present_state.S3'
+Slack : -3.047
+TNS   : -29.634
+
+Type  : Fast 1100mV 0C Model Setup 'add_control:cont|present_state.S2'
+Slack : -2.784
+TNS   : -29.120
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -1.406
+TNS   : -16.396
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : -0.495
+TNS   : -0.495
+
+Type  : Fast 1100mV 0C Model Hold 'add_control:cont|present_state.S2'
+Slack : 0.096
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'add_control:cont|present_state.S3'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.087
+TNS   : -1.351
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'add_control:cont|present_state.S2'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'add_control:cont|present_state.S3'
+Slack : 0.302
+TNS   : 0.000
+
+------------------------------------------------------------
